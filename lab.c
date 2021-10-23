@@ -27,7 +27,7 @@ int main(void)
         a = (double)rand() / RAND_MAX * (max - min) + min;          // генерирует число
         part_chast = modf(a, &number);                              // находит дробную часть
 
-        if (i >= 0 && i < 10 && i != (int)(part_chast * 10))
+        if (i >= 0 && i < 10 && i != (int)(part_chast * 10))        // Проверка на совпадение дробной части с номером этого числа
             sum += a;
         else if (i >= 10 && i < 100 && i != (int)(part_chast * 100))
             sum += a;
