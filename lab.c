@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 
-
+ 
 int main(void)
 {
     int             n, i;                                           // переменные для счета генерации и для проверки индекса
