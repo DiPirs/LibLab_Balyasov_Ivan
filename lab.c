@@ -39,6 +39,6 @@ int main(void)
             sum += a;
     }
     printf("SUM: %f\n\n", sum);
-
+ 
     return 0;
 }
